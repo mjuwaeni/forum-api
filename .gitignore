@@ -4,4 +4,5 @@ package-lock.json
 coverage
 *.zip
 *.pem
+.env
 config/database/test.json
