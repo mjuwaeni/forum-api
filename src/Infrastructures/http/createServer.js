@@ -56,12 +56,11 @@ const createServer = async (container) => {
     },
   ]);
 
-
   server.route({
     method: 'GET',
     path: '/',
-    handler: () => ({
-      value: 'Hello Dicoding!',
+    handler: () => ({ 
+      value: 'Hello World!' 
     }),
   })
 
